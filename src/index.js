@@ -82,7 +82,6 @@ class List {
           this.remove(task);
         });
         taskItem.replaceChild(removeIcon, ellipsis);
-        console.log(taskItem);
       });
       taskItem.appendChild(ellipsis);
 
